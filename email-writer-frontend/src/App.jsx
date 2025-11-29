@@ -6,7 +6,7 @@ import axios from 'axios';
 function App() {
 const [emailContent, setEmailContent] = useState('');
 const [tone, setTone] = useState('');  
-const [generatedReply, setGeneratedReply] = useState('');
+const [generatedReply, setGeneratedReply] = useState(''); 
 const [loading, setLoading] = useState(false);
 
 const handleSubmit= async ()=>{
